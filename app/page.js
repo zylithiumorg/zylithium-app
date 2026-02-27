@@ -1,23 +1,23 @@
 export default function Home() {
   return (
-    <main style={{ 
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
-      height: "100vh",
-      fontFamily: "Arial"
-    }}>
-      <h1>Zylithium Web3 Risk Intelligence</h1>
-      <p>AI-powered smart contract & token risk analysis platform.</p>
-      <button style={{
-        padding: "10px 20px",
-        marginTop: "20px",
-        fontSize: "16px",
-        cursor: "pointer"
-      }}>
-        Start Scan
-      </button>
-    </main>
-  );
+    <div style={{padding: "60px", fontFamily: "Arial", textAlign: "center"}}>
+      <h1 style={{fontSize: "42px"}}>Zylithium</h1>
+      <p style={{fontSize: "18px", marginTop: "20px"}}>
+        AI-Powered Web3 Risk Intelligence Platform
+      </p>
+
+      <div style={{marginTop: "40px"}}>
+        <button style={{
+          padding: "12px 24px",
+          fontSize: "16px",
+          backgroundColor: "black",
+          color: "white",
+          border: "none",
+          cursor: "pointer"
+        }}>
+          Start Free Scan
+        </button>
+      </div>
+    </div>
+  )
 }
